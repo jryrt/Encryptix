@@ -1,0 +1,140 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #e1e1cd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d6d4be;
+    border-bottom: 2px solid #999;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.contact {
+    font-size: 1.2em;
+    color: #777;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-color: #ebede5;
+    padding: 20px;
+}
+
+.intro img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro blockquote {
+    font-size: 1.4em;
+    margin: 0;
+    color: #555;
+}
+
+.intro blockquote p {
+    margin: 0;
+}
+
+.intro blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #888;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%;
+    background-color: #f9f9f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+    color: #444;
+}
+
+.column p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.column ul li {
+    margin-bottom: 10px;
+}
+
+.column a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
